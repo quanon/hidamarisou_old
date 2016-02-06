@@ -1,4 +1,4 @@
 <%= form_for([room, Chat.new], remote: true) do |form| %>
-  <%= form.text_area(:body, size: '100x20') %><br>
+  <%= form.text_area(:body, size: '100x5') %><br>
   <%= form.submit('投稿する') %>
 <% end %>
